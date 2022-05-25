@@ -1,0 +1,39 @@
+.task-item {
+    border-radius: 5px;
+    border: 1px solid transparent;
+    background-color: #f0f0f0;
+    width: 300px;
+    padding: 0.5em 1em;
+    outline: none;
+    line-height: 1.6em;
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 1em;
+    min-height: 30px;
+    height: auto;
+
+    .task-label {
+        background-color: #b3b3b3;
+        border-radius: 4px;
+        width: 18px;
+        height: 18px;
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 1em;
+        flex-shrink: 0;
+    
+        &:hover {
+            cursor: pointer;
+            background-color: darken(#b3b3b3, 10%);
+        }
+    
+        > input[type="checkbox"] {
+            -webkit-appearance: none;
+            appearance: none;
+            margin: 0;
+        }
+    }
+}

@@ -1,0 +1,30 @@
+.task-container {
+    margin: 10vh auto;
+    width: 20vw;
+
+    .task-input {
+        border-radius: 5px;
+        border: 1px solid transparent;
+        background-color: #d3d1d1;
+        height: 30px;
+        width: 300px;
+        padding: .5em 1em;
+        outline: none;
+
+        &:hover {
+            cursor: pointer;
+        }
+
+        &:active,
+        &:focus-within {
+            background: #FFF;
+            box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        }
+    }
+
+    .task-list {
+        list-style-type: none;
+        padding-left: 0;
+    }
+}
+
