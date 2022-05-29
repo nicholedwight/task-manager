@@ -1,3 +1,4 @@
+import React from 'react';
 import './scss/Taskitem.scss';
 
 const Taskitem = (props) => {
